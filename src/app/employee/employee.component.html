@@ -1,0 +1,27 @@
+
+    <h1>Employee Details</h1>
+    
+    <table class="table table-bordered">
+        <thead>
+            <th (click) = "sort('EmployeeID')" >EmployeeID&nbsp;<i class="bi bi-1-circle"></i></th>
+            <th>EmployeeName</th>
+            <th>DateOfBirth</th>
+            <th>Designation</th>
+            <th>Department</th>
+            <th>JoinDate</th>
+            <th>TotalEperience</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let employ of employee | orderBy : key :reverse">
+                <td>{{employ.EmployeeID}}</td>
+                <td>{{employ.EmployeeName}}</td>
+                <td>{{employ.DateOfBirth}}</td>
+                <td>{{employ.Designation}}</td>
+                <td>{{employ.Department}}</td>
+                <td>{{employ.JoinDate}}</td>
+                <td>{{employ.TotalEperience}}</td>
+            </tr>
+        </tbody>
+
+    </table>
+

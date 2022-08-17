@@ -1,0 +1,39 @@
+[
+    {
+        "EmployeeID":1,
+        "EmployeeName":"Ramesh",
+        "DateOfBirth":"23/02/1998",
+        "Designation":"Manager",
+        "Department":"EPM",
+        "JoinDate":"02/01/2022",
+        "TotalEperience":"2 years"
+    },
+    {
+        "EmployeeID":2,
+        "EmployeeName":"Samesh",
+        "DateOfBirth":"25/02/1998",
+        "Designation":"Associate",
+        "Department":"EPL",
+        "JoinDate":"07/01/2022",
+        "TotalEperience":"1 years"
+    },
+    {
+        "EmployeeID":3,
+        "EmployeeName":"Gamesh",
+        "DateOfBirth":"14/02/1998",
+        "Designation":"Assistant",
+        "Department":"POI",
+        "JoinDate":"08/01/2022",
+        "TotalEperience":"1 years"
+    },
+    {
+        "EmployeeID":4,
+        "EmployeeName":"Lamesh",
+        "DateOfBirth":"27/02/1998",
+        "Designation":"Assistant",
+        "Department":"EPD",
+        "JoinDate":"07/01/2022",
+        "TotalEperience":"1 years"
+    }
+
+]
